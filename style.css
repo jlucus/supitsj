@@ -44,7 +44,7 @@ nav {
   height: 31px;
   margin: 0 2vw;
   opacity: 0.5;
-  background-color: #2cce12;
+  background-color: rgba(42, 116, 14, 0.51);
 }
 
 .social {
@@ -90,7 +90,7 @@ nav {
 
 .title {
   text-transform: uppercase;
-  color: #fff;
+  color:rgb(30, 87, 9);
   margin: 0;
 }
 
@@ -136,9 +136,9 @@ nav {
   flex-direction: column;
   margin: 7px;
   width: calc(20% - 14px);
-  height: 253px;
+  height: 250px;
   background-color: rgba(42, 116, 14, 0.51);
-  border-radius: 5px;
+
 }
 
 .image {
@@ -146,7 +146,7 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex: 1;
+  flex: 3;
 }
 
 .image img {
@@ -154,28 +154,19 @@ nav {
 }
 
 .image span {
-  margin-top: 30px;
-  color: #6ffc76;
+  margin-top: 25px;
+  color: #ffffff;
   font-weight: 300;
 }
 
-.rectangle {
-  width: 100%;
-  height: 46px;
-  opacity: 0.82;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(131, 253, 115, 0.41);
-}
+
 
 .code {
   text-transform: none;
   font-size: 16px;
   font-weight: 500;
   color: #ffffff;
-  text-align: center;
-  word-break: break-all;
+  text-align: left;
 }
 
 .btn {
@@ -192,8 +183,6 @@ nav {
   background-color: #85ff21;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
-  transition: background-color 0.2s, transform 0.1s;
-  word-break: break-all;
   text-align: center;
 }
 
@@ -256,7 +245,7 @@ nav {
 }
 
 footer {
-  background: rgba(81, 253, 29, 0.76);
+  background-color: rgba(42, 116, 14, 0.51);
   margin-top: 40px;
   width: 100%;
   padding-top: 50px;
@@ -289,7 +278,6 @@ footer {
 }
 
 .footer-content .contact {
-  color: rgba(42, 116, 14, 0.51);
   text-decoration: none;
   transition: 0.2s;
 }
@@ -299,7 +287,7 @@ footer {
 }
 
 .footer-bottom {
-  background-color: rgba(48, 241, 90, 0.5);
+  background-color: rgba(42, 116, 14, 0.51);
   width: 100%;
   padding: 20px 0;
   display: flex;
@@ -312,13 +300,15 @@ footer {
   gap: 15px;
   display: flex;
   align-items: center;
+  
 }
 
 .footer-bottom p {
   padding-left: 8.4vw;
   font-size: 14px;
   word-spacing: 2px;
-  color: #98fc26;
+  color: rgba(237, 240, 235, 0.51);
+  
 }
 
 .flink {
